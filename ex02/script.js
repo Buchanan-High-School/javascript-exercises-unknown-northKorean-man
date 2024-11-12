@@ -10,6 +10,8 @@ function task1() {
 // Write your task 2 code inside this function!
 function task2() {
   console.log("Running task 2");
+  let target = document.querySelector("#code")
+  console.log("")
 }
 
 // Write your task 3 code inside this function!
