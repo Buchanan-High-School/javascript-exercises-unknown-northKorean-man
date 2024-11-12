@@ -1,6 +1,10 @@
 // Write your Task 1 code inside this function!
 function task1() {
-  console.log("Running task 1");
+  console.log(target);
+  //target div
+  let target = document.querySelector("#text-content")
+  //set inertext to somthing new
+  target.innerText = "somthing-new"
 }
 
 // Write your task 2 code inside this function!
