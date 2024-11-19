@@ -8,6 +8,6 @@ let targrt = document.querySelector("receiver")
 
 names.forEach(item => {
     let newEl= document.createElement("li")
-    newEl.innerText = item;
-
+    newEl.innerText = item.innerText;
+    targrt.appendChild(newEl)
 })
