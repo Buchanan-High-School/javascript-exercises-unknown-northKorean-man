@@ -1,6 +1,7 @@
 function task1() {
-  let myArray = [];
+  let myArray = ["one" ,'two' ,"four" ];
   // This will run when you click the button.
+  let names = document.querySelectorAll("li")
   myArray.forEach((item) => {
     let el = document.createElement("p");
     el.innerText = item;
